@@ -17,9 +17,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="58dp"
         android:ems="10"
-        android:maxLength="14"
-        android:hint="Enter a message upto 14 digits"
-        android:inputType="number" >
+        android:hint="Enter a message upto 10 digits"
+        android:inputType="number"
+        android:maxLength="10" >
 
         <requestFocus />
     </EditText>
